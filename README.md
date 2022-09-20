@@ -5,7 +5,7 @@
 0 - Changer le chemin machine folder  de vagrant pour eviter de remplir ton home, donc soit dans tmp. soit dans ton server goinfre
 
 Pour check le chemin de creation de la VM :
-VBoxManage list systemproperties | grep "Default machine folder:"
+	VBoxManage list systemproperties | grep "Default machine folder:"
 
 Pour le changer :
 	vboxmanage setproperty machinefolder ${PATH_OF_VM}

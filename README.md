@@ -1,6 +1,7 @@
 # VM_Creator
 # A simple script to create a VM
 
+Le script sert a checker si la version de vagrant utilise est la derniere.
 
 0 - Changer le chemin machine folder  de vagrant pour eviter de remplir ton home, donc soit dans tmp. soit dans ton server goinfre
 
@@ -11,15 +12,13 @@ Pour le changer :
 	vboxmanage setproperty machinefolder ${PATH_OF_VM}
 Pour tmp :	vboxmanage setproperty machinefolder /tmp
 
-1 - Creer un fichier nomme Vagrantfile a la racine de ton repo et copier le code dedans.
-
-2 - Run la command :
+1 - Run la command :
 	'vagrant plugin install vagrant-reload'
 
-3 - Lancer vagrant :
+2 - Lancer vagrant :
 	'vagrant up'
 
-4 - Attendre 5 ou 10min.
+3 - Attendre 5 ou 10min.
 
-5 - Pour lancer un terminal en local qui fera tout dans la VM :
+4 - Pour lancer un terminal en local qui fera tout dans la VM :
 	'vagrant ssh'

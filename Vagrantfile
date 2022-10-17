@@ -26,6 +26,8 @@ Vagrant.configure("2") do |config|
 	  echo "vscode installed."
 	  sudo snap install firefox
 	  echo "firefox installed."
+	  sudo apt install make
+	  echo "make installed."
 	 
 	SHELL
 	
